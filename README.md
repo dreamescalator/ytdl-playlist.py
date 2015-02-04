@@ -1,5 +1,5 @@
 # ytdl-playlist.py
-An  automation script to download video playlists using ytdl; written in python.  
+A tiny automation script to download video playlists using ytdl; written in python.  
 
 # Dependencies:
 This requires having the ytdl CLI client installed.  For more information see:
