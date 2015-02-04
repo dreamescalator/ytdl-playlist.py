@@ -4,8 +4,8 @@ import subprocess
 import sys
 
 playlist = str(sys.argv[1])
-dict_dir = "/home/rsmith/Documents/python_dicts/"
-dest_dir = "/home/rsmith/Videos/ganked/unsorted/"
+dict_dir = "/path/to/python/dictionaries/"
+dest_dir = "/path/to/downlaoded/videos/"
 
 def to_dict(_playlist):
         _playlist = dict_dir + str(_file)
@@ -21,3 +21,4 @@ def download(_playlist):
                 proc.wait()
 
 download(playlist)
+
