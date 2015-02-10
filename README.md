@@ -16,9 +16,9 @@ This script downloads all the videos on the playlist to a destination directory 
 
 
 # Set-up
-1) download this git repo
-2) Install ytdl CLI client and all the required Python dependecies
-3) $ cd ytdl-playlist.py && [sudo] chmod 755 playlist.py
+1. download this git repo
+2. Install ytdl CLI client and all the required Python dependecies
+3. $ cd ytdl-playlist.py && [sudo] chmod 755 playlist.py
 
 # Usage
 
