@@ -12,7 +12,7 @@ requests: http://docs.python-requests.org/en/latest/
 which can be installed with pip: https://pypi.python.org/pypi/pip/6.0.6
 
 # How it works
-This script downloads all the videos on the playlist to a destination directory of your choosing, if none specified it will just download the playlist videos to a CWD
+This script downloads all the videos on the playlist to a destination directory of your choosing, if none specified it will just download the playlist videos to a CWD.  Also note that this script is made specifically for downloading entire playlists.  If you want to download a single video, use ytdl instead.
 
 
 # Set-up
