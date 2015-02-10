@@ -34,8 +34,8 @@ OR
 
 # Optional Arguments
 
--h = help menu/list of commands
--p = path to target directory to save playlist videos
+* -h = help menu/list of commands
+* -p = path to target directory to save playlist videos
 
 `$ ./playlist.py -l  "https://www.youtube.com/playlist?list=PLUl4u3cNGP63w3DE9izYp_3fpAdi0Wkga" -p /path/where/I/want/to/save/videos`
 
