@@ -22,12 +22,13 @@ This script downloads all the videos on the playlist to a destination directory 
 
 # Usage
 
-
+---
 $ ./playlist.py -l  "https://www.youtube.com/playlist?list=PLUl4u3cNGP63w3DE9izYp_3fpAdi0Wkga" 
-
+---
 OR
-
+---
 $ ./playlist.py -l  /path/to/my/dictfile.txt
+---
 
 
 
@@ -35,8 +36,9 @@ $ ./playlist.py -l  /path/to/my/dictfile.txt
 
 -h = help menu/list of commands
 -p = path to target directory to save playlist videos
-
+---
 $ ./playlist.py -l  "https://www.youtube.com/playlist?list=PLUl4u3cNGP63w3DE9izYp_3fpAdi0Wkga" -p /path/where/I/want/to/save/videos
+---
 
 (Note:, if the path or folder doesnt exist, it will be created for you)
 
