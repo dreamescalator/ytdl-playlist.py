@@ -13,6 +13,8 @@ def build(k, v, folder):
         k = re.search('^(.*?)&', k).group(1)
         return "ytdl " + "https://youtube.com" + str(k)+ " > " + v[2:]
 
+# Dict example:
+# {'url':'video title'}
 def dictfile(_playlist):
         _playlist = dict_dir + str(_file)
         with open(_playlist) as f:
