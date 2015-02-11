@@ -23,7 +23,7 @@ def new_folder(_name):
         if not os.path.isdir(_new_folder): os.makedirs(_new_folder)
         return _new_folder
 
-#SAUCE FUNCTIONS
+#PACKAGE FUNCTIONS
 def playlist(_url):
         _playlist_dict = {}
         soup = BeautifulSoup(requests.get(_url).text)
