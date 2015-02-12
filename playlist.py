@@ -11,7 +11,7 @@ def sanitize(string):
 def build(k, v, folder):        
         v = str(folder) + str(v) + ".flv"
         k = re.search('^(.*?)&', k).group(1)
-        return "ytdl " + "https://youtube.com" + str(k)+ " > " + v[2:]
+        return "ytdl " + "https://youtube.com" + str(k)+ " > " + str(v)
 
 # Dict example:
 # {'url':'video title'}
